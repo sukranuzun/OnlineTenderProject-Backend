@@ -1,0 +1,5 @@
+C:\Users\sukra\OneDrive\Masaüstü\OnlineTenderProject\OnlineTenderProject\Business\obj\Debug\netcoreapp3.1\Business.csproj.AssemblyReference.cache
+C:\Users\sukra\OneDrive\Masaüstü\OnlineTenderProject\OnlineTenderProject\Business\obj\Debug\netcoreapp3.1\Business.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\sukra\OneDrive\Masaüstü\OnlineTenderProject\OnlineTenderProject\Business\obj\Debug\netcoreapp3.1\Business.AssemblyInfoInputs.cache
+C:\Users\sukra\OneDrive\Masaüstü\OnlineTenderProject\OnlineTenderProject\Business\obj\Debug\netcoreapp3.1\Business.AssemblyInfo.cs
+C:\Users\sukra\OneDrive\Masaüstü\OnlineTenderProject\OnlineTenderProject\Business\obj\Debug\netcoreapp3.1\Business.csproj.CoreCompileInputs.cache
