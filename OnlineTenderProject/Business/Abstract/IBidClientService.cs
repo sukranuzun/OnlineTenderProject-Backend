@@ -8,10 +8,10 @@ namespace Business.Abstract
 {
     public interface IBidClientService
     {
-        DataResult<BidClient> GetById(int bidId);
+        DataResult<BidClient> GetById(int bidClientId);
         DataResult<List<BidClient>> GetAll();
-        IResult Add(BidClient bid);
-        IResult Update(BidClient bid);
-        IResult Delete(BidClient bid);
+        IResult Add(BidClient bidClient);
+        IResult Update(BidClient bidClient);
+        IResult Delete(BidClient bidClient);
     }
 }

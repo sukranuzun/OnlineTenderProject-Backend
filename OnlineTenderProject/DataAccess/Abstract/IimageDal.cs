@@ -5,7 +5,7 @@ using System.Collections.Generic;
 using System.Text;
 namespace DataAccess.Abstract
 {
-    public interface IimageDal : IEntityRepository<Image>
+    public interface IImageDal : IEntityRepository<Image>
     {
     }
 }

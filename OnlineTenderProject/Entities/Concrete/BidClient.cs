@@ -1,10 +1,11 @@
-﻿using System;
+﻿using Core.Entities;
+using System;
 using System.Collections.Generic;
 using System.Text;
 
 namespace Entities.Concrete
 {
-    public class BidClient
+    public class BidClient: IEntity
     {
         public int BidClientId { get; set; }
         public int TenderId { get; set; }

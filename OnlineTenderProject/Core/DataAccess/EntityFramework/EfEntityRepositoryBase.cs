@@ -8,13 +8,13 @@ using System.Text;
 
 namespace Core.DataAccess.EntityFramework
 {
-    public class EfEntityRepositoryBase<TEntity, TContext> : IEntityRepository<TEntity>
+    public class EfEntityRepositoryBase<TEntity, TDataContext> : IEntityRepository<TEntity>
         where TEntity : class, IEntity, new()
-        where TContext : DbContext, new()
+        where TDataContext : DbContext, new()
     {
         public void Add(TEntity entity)
         {
-            using (var context = new TContext())
+            using (var context = new TDataContext())
             {
                 var addedEntity = context.Entry(entity);
                 addedEntity.State = EntityState.Added;
@@ -24,7 +24,7 @@ namespace Core.DataAccess.EntityFramework
 
         public void Delete(TEntity entity)
         {
-            using (var context = new TContext())
+            using (var context = new TDataContext())
             {
                 var deletedEntity = context.Entry(entity);
                 deletedEntity.State = EntityState.Deleted;
@@ -34,7 +34,7 @@ namespace Core.DataAccess.EntityFramework
 
         public TEntity Get(Expression<Func<TEntity, bool>> filter = null)
         {
-            using(var context=new TContext())
+            using(var context=new TDataContext())
             {
                 return context.Set<TEntity>().SingleOrDefault(filter);
             }
@@ -42,10 +42,10 @@ namespace Core.DataAccess.EntityFramework
 
         public List<TEntity> GetList(Expression<Func<TEntity, bool>> filter = null)
         {
-            using (var context = new TContext())
+            using (var context = new TDataContext())
             {
                 return filter == null
-                    ?context.Set<IEntity>().ToList()
+                    ? context.Set<IEntity>().ToList();
                     :context.Set<TEntity>().Where(filter).ToList();
 
             }
@@ -53,7 +53,7 @@ namespace Core.DataAccess.EntityFramework
 
         public void Update(TEntity entity)
         {
-            using (var context = new TContext())
+            using (var context = new TDataContext())
             {
                 var updatedEntity = context.Entry(entity);
                 updatedEntity.State = EntityState.Modified;

@@ -18,12 +18,25 @@ namespace Web_API.Controllers
         {
             _context = context;
         }
-
         [HttpGet]
-        public ActionResult GetTenders()
+        public IEnumerable<string> Get()
         {
-            var tenders = _context.Tender.ToList();
-            return Ok(tenders);
+            return new string[] { "tender1","tender2" };
         }
+        [HttpGet("{id}")]
+        public string Get(int id)
+        {
+            return "tender";
+        }
+        [HttpPost]
+        public void Post(int id, [FromBody] string tender)
+        {
+        }
+
+        [HttpPut("{id}")]
+        public void Put(int id, [FromBody]string tender)
+        {
+        }
+
     }
 }

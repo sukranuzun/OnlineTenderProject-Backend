@@ -34,5 +34,10 @@ namespace Business.Concrete
         {
             throw new NotImplementedException();
         }
+
+        object IAuthService.Login(UserForLoginDto userForLoginDto)
+        {
+            throw new NotImplementedException();
+        }
     }
 }

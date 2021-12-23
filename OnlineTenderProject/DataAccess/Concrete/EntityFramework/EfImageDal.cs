@@ -6,7 +6,7 @@ using System.Collections.Generic;
 using System.Text;
 namespace DataAccess.Concrete.EntityFramework
 {
-    public class EfImageDal : EfEntityRepositoryBase<Image, DataContext>, IimageDal
+    public class EfImageDal : EfEntityRepositoryBase<Image, DataContext>, IImageDal
     {
     }
 }

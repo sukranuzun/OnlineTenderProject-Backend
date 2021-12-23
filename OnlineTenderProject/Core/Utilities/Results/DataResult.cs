@@ -6,14 +6,14 @@ namespace Core.Utilities.Results
 {
     public class DataResult<T> : Result, IDataResult<T>
     {
-        public DataResult(T data, bool v)
+        public DataResult(T data, bool success, string message) : base(success, message)
         {
+            Data = data;
         }
-
-        public T Data => throw new NotImplementedException();
-
-        public bool Success => throw new NotImplementedException();
-
-        public string Message => throw new NotImplementedException();
+        public DataResult(T data, bool success) : base(success)
+        {
+            Data = data;
+        }
+        public T Data { get; }
     }
 }

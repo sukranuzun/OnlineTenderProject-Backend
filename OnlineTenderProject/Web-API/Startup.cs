@@ -31,7 +31,11 @@ namespace Web_API
             services.AddScoped<ITenderService, TenderManager>();
             services.AddRazorPages();
             services.AddMvc();
+            services.AddCors();
             services.AddDbContext<DataContext>(x=>x.UseSqlServer(Configuration.GetConnectionString("DefaultConnection")));
+            services.AddSwaggerGen(options => {
+                options.SwaggerDoc("v1", new Swashbuckle.AspNetCore.Swagger.Info { Version = "v1", Title = ".NET Core Swagger" });
+            });
         }
 
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.
@@ -48,7 +52,14 @@ namespace Web_API
                 app.UseHsts();
             }
 
-            app.UseCors(builder => builder.WithOrigins("http://localhost:4200").AllowAnyHeader());
+            app.UseSwagger();
+
+            app.UseSwaggerUI(options => {
+                options.DocumentTitle = "Swagger API doküman baþlýðý";
+                options.SwaggerEndpoint("/swagger/v1/swagger.json", "Swagger API baþlýðý");
+            });
+
+            app.UseCors(x=>x.AllowAnyHeader().AllowAnyMethod().AllowAnyOrigin().AllowCredentials());
 
             app.UseHttpsRedirection();
 

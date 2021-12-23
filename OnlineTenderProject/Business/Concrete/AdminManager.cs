@@ -29,6 +29,16 @@ namespace Business.Concrete
             return new SuccessResult(Messages.Deleted);
         }
 
+        public IDataResult<List<Admin>> GetAll()
+        {
+            throw new NotImplementedException();
+        }
+
+        public IDataResult<Admin> GetById(int adminId)
+        {
+            throw new NotImplementedException();
+        }
+
         public IResult Update(Admin admin)
         {
             _adminDal.Update(admin);

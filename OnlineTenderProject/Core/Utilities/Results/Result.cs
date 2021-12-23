@@ -6,6 +6,20 @@ namespace Core.Utilities.Results
 {
     public class Result : IResult
     {
+        private bool success;
+        private string message;
+
+        public Result(bool success)
+        {
+            this.success = success;
+        }
+
+        public Result(bool success, string message)
+        {
+            this.success = success;
+            this.message = message;
+        }
+
         public bool Success => throw new NotImplementedException();
 
         public string Message => throw new NotImplementedException();
