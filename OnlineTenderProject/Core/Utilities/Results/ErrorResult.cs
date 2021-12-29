@@ -4,10 +4,15 @@ using System.Text;
 
 namespace Core.Utilities.Results
 {
-    class ErrorResult : IResult
+    class ErrorResult : Result
     {
-        public bool Success => throw new NotImplementedException();
+        public ErrorResult(string message) : base(false, message)
+        {
 
-        public string Message => throw new NotImplementedException();
+        }
+        public ErrorResult() : base(false)
+        {
+
+        }
     }
 }

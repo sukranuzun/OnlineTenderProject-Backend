@@ -16,28 +16,38 @@ namespace Business.Concrete
         {
             _userService = userService;
         }
-        public Core.Utilities.Results.IDataResult<User> Login(UserForLoginDto userForLoginDto)
+        public IDataResult<User> Login(UserForLoginDto userForLoginDto)
         {
-            throw new NotImplementedException();
+            var userToCheck = _userService.GetByMail(userForLoginDto.Email);
+            if (userToCheck == null)
+            {
+                return new ErrorDataResult<User>(Messages);
+            }
+            return new SuccessDataResult<User>(userToCheck, Messages.LoginSuccess);
         }
 
-        public Core.Utilities.Results.IDataResult<User> Register(UserForRegisterDto userForRegisterDto, string password)
+        public IDataResult<User> Register(UserForRegisterDto userForRegisterDto, string password)
+        {
+            byte[] passwordHash, passwordSalt;
+            var user = new User
+            {
+                Email = userForRegisterDto.Email,
+                UserName = userForRegisterDto.UserName,
+                PasswordHash = passwordHash,
+                PasswordSalt = passwordSalt,
+
+            };
+            _userService.Add(user);
+            return new SuccessDataResult<User>(user, Messages.RegisterSuccess);
+        }
+
+        public IResult UserExists(string email)
         {
             if (_userService.GetByMail(email).Data != null)
             {
                 return new ErrorResult(Messages.UserExists);
             }
             return new SuccessResult();
-        }
-
-        public IResult UserExists(string email)
-        {
-            throw new NotImplementedException();
-        }
-
-        object IAuthService.Login(UserForLoginDto userForLoginDto)
-        {
-            throw new NotImplementedException();
         }
     }
 }

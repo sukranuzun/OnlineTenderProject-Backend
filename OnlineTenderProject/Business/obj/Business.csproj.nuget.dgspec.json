@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\sukra\\OneDrive\\Masaüstü\\OnlineTenderProject\\OnlineTenderProject\\Business\\Business.csproj": {}
+    "C:\\Users\\sukra\\OneDrive\\Belgeler\\GitHub\\OnlineTenderProject\\OnlineTenderProject\\Business\\Business.csproj": {}
   },
   "projects": {
-    "C:\\Users\\sukra\\OneDrive\\Masaüstü\\OnlineTenderProject\\OnlineTenderProject\\Business\\Business.csproj": {
+    "C:\\Users\\sukra\\OneDrive\\Belgeler\\GitHub\\OnlineTenderProject\\OnlineTenderProject\\Business\\Business.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\sukra\\OneDrive\\Masaüstü\\OnlineTenderProject\\OnlineTenderProject\\Business\\Business.csproj",
+        "projectUniqueName": "C:\\Users\\sukra\\OneDrive\\Belgeler\\GitHub\\OnlineTenderProject\\OnlineTenderProject\\Business\\Business.csproj",
         "projectName": "Business",
-        "projectPath": "C:\\Users\\sukra\\OneDrive\\Masaüstü\\OnlineTenderProject\\OnlineTenderProject\\Business\\Business.csproj",
+        "projectPath": "C:\\Users\\sukra\\OneDrive\\Belgeler\\GitHub\\OnlineTenderProject\\OnlineTenderProject\\Business\\Business.csproj",
         "packagesPath": "C:\\Users\\sukra\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\sukra\\OneDrive\\Masaüstü\\OnlineTenderProject\\OnlineTenderProject\\Business\\obj\\",
+        "outputPath": "C:\\Users\\sukra\\OneDrive\\Belgeler\\GitHub\\OnlineTenderProject\\OnlineTenderProject\\Business\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\sukra\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -28,14 +28,14 @@
           "netcoreapp3.1": {
             "targetAlias": "netcoreapp3.1",
             "projectReferences": {
-              "C:\\Users\\sukra\\OneDrive\\Masaüstü\\OnlineTenderProject\\OnlineTenderProject\\Core\\Core.csproj": {
-                "projectPath": "C:\\Users\\sukra\\OneDrive\\Masaüstü\\OnlineTenderProject\\OnlineTenderProject\\Core\\Core.csproj"
+              "C:\\Users\\sukra\\OneDrive\\Belgeler\\GitHub\\OnlineTenderProject\\OnlineTenderProject\\Core\\Core.csproj": {
+                "projectPath": "C:\\Users\\sukra\\OneDrive\\Belgeler\\GitHub\\OnlineTenderProject\\OnlineTenderProject\\Core\\Core.csproj"
               },
-              "C:\\Users\\sukra\\OneDrive\\Masaüstü\\OnlineTenderProject\\OnlineTenderProject\\DataAccess\\DataAccess.csproj": {
-                "projectPath": "C:\\Users\\sukra\\OneDrive\\Masaüstü\\OnlineTenderProject\\OnlineTenderProject\\DataAccess\\DataAccess.csproj"
+              "C:\\Users\\sukra\\OneDrive\\Belgeler\\GitHub\\OnlineTenderProject\\OnlineTenderProject\\DataAccess\\DataAccess.csproj": {
+                "projectPath": "C:\\Users\\sukra\\OneDrive\\Belgeler\\GitHub\\OnlineTenderProject\\OnlineTenderProject\\DataAccess\\DataAccess.csproj"
               },
-              "C:\\Users\\sukra\\OneDrive\\Masaüstü\\OnlineTenderProject\\OnlineTenderProject\\Entities\\Entities.csproj": {
-                "projectPath": "C:\\Users\\sukra\\OneDrive\\Masaüstü\\OnlineTenderProject\\OnlineTenderProject\\Entities\\Entities.csproj"
+              "C:\\Users\\sukra\\OneDrive\\Belgeler\\GitHub\\OnlineTenderProject\\OnlineTenderProject\\Entities\\Entities.csproj": {
+                "projectPath": "C:\\Users\\sukra\\OneDrive\\Belgeler\\GitHub\\OnlineTenderProject\\OnlineTenderProject\\Entities\\Entities.csproj"
               }
             }
           }
@@ -86,14 +86,14 @@
         }
       }
     },
-    "C:\\Users\\sukra\\OneDrive\\Masaüstü\\OnlineTenderProject\\OnlineTenderProject\\Core\\Core.csproj": {
+    "C:\\Users\\sukra\\OneDrive\\Belgeler\\GitHub\\OnlineTenderProject\\OnlineTenderProject\\Core\\Core.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\sukra\\OneDrive\\Masaüstü\\OnlineTenderProject\\OnlineTenderProject\\Core\\Core.csproj",
+        "projectUniqueName": "C:\\Users\\sukra\\OneDrive\\Belgeler\\GitHub\\OnlineTenderProject\\OnlineTenderProject\\Core\\Core.csproj",
         "projectName": "Core",
-        "projectPath": "C:\\Users\\sukra\\OneDrive\\Masaüstü\\OnlineTenderProject\\OnlineTenderProject\\Core\\Core.csproj",
+        "projectPath": "C:\\Users\\sukra\\OneDrive\\Belgeler\\GitHub\\OnlineTenderProject\\OnlineTenderProject\\Core\\Core.csproj",
         "packagesPath": "C:\\Users\\sukra\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\sukra\\OneDrive\\Masaüstü\\OnlineTenderProject\\OnlineTenderProject\\Core\\obj\\",
+        "outputPath": "C:\\Users\\sukra\\OneDrive\\Belgeler\\GitHub\\OnlineTenderProject\\OnlineTenderProject\\Core\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\sukra\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -146,14 +146,14 @@
         }
       }
     },
-    "C:\\Users\\sukra\\OneDrive\\Masaüstü\\OnlineTenderProject\\OnlineTenderProject\\DataAccess\\DataAccess.csproj": {
+    "C:\\Users\\sukra\\OneDrive\\Belgeler\\GitHub\\OnlineTenderProject\\OnlineTenderProject\\DataAccess\\DataAccess.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\sukra\\OneDrive\\Masaüstü\\OnlineTenderProject\\OnlineTenderProject\\DataAccess\\DataAccess.csproj",
+        "projectUniqueName": "C:\\Users\\sukra\\OneDrive\\Belgeler\\GitHub\\OnlineTenderProject\\OnlineTenderProject\\DataAccess\\DataAccess.csproj",
         "projectName": "DataAccess",
-        "projectPath": "C:\\Users\\sukra\\OneDrive\\Masaüstü\\OnlineTenderProject\\OnlineTenderProject\\DataAccess\\DataAccess.csproj",
+        "projectPath": "C:\\Users\\sukra\\OneDrive\\Belgeler\\GitHub\\OnlineTenderProject\\OnlineTenderProject\\DataAccess\\DataAccess.csproj",
         "packagesPath": "C:\\Users\\sukra\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\sukra\\OneDrive\\Masaüstü\\OnlineTenderProject\\OnlineTenderProject\\DataAccess\\obj\\",
+        "outputPath": "C:\\Users\\sukra\\OneDrive\\Belgeler\\GitHub\\OnlineTenderProject\\OnlineTenderProject\\DataAccess\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\sukra\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -170,11 +170,11 @@
           "netcoreapp3.1": {
             "targetAlias": "netcoreapp3.1",
             "projectReferences": {
-              "C:\\Users\\sukra\\OneDrive\\Masaüstü\\OnlineTenderProject\\OnlineTenderProject\\Core\\Core.csproj": {
-                "projectPath": "C:\\Users\\sukra\\OneDrive\\Masaüstü\\OnlineTenderProject\\OnlineTenderProject\\Core\\Core.csproj"
+              "C:\\Users\\sukra\\OneDrive\\Belgeler\\GitHub\\OnlineTenderProject\\OnlineTenderProject\\Core\\Core.csproj": {
+                "projectPath": "C:\\Users\\sukra\\OneDrive\\Belgeler\\GitHub\\OnlineTenderProject\\OnlineTenderProject\\Core\\Core.csproj"
               },
-              "C:\\Users\\sukra\\OneDrive\\Masaüstü\\OnlineTenderProject\\OnlineTenderProject\\Entities\\Entities.csproj": {
-                "projectPath": "C:\\Users\\sukra\\OneDrive\\Masaüstü\\OnlineTenderProject\\OnlineTenderProject\\Entities\\Entities.csproj"
+              "C:\\Users\\sukra\\OneDrive\\Belgeler\\GitHub\\OnlineTenderProject\\OnlineTenderProject\\Entities\\Entities.csproj": {
+                "projectPath": "C:\\Users\\sukra\\OneDrive\\Belgeler\\GitHub\\OnlineTenderProject\\OnlineTenderProject\\Entities\\Entities.csproj"
               }
             }
           }
@@ -223,14 +223,14 @@
         }
       }
     },
-    "C:\\Users\\sukra\\OneDrive\\Masaüstü\\OnlineTenderProject\\OnlineTenderProject\\Entities\\Entities.csproj": {
+    "C:\\Users\\sukra\\OneDrive\\Belgeler\\GitHub\\OnlineTenderProject\\OnlineTenderProject\\Entities\\Entities.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\sukra\\OneDrive\\Masaüstü\\OnlineTenderProject\\OnlineTenderProject\\Entities\\Entities.csproj",
+        "projectUniqueName": "C:\\Users\\sukra\\OneDrive\\Belgeler\\GitHub\\OnlineTenderProject\\OnlineTenderProject\\Entities\\Entities.csproj",
         "projectName": "Entities",
-        "projectPath": "C:\\Users\\sukra\\OneDrive\\Masaüstü\\OnlineTenderProject\\OnlineTenderProject\\Entities\\Entities.csproj",
+        "projectPath": "C:\\Users\\sukra\\OneDrive\\Belgeler\\GitHub\\OnlineTenderProject\\OnlineTenderProject\\Entities\\Entities.csproj",
         "packagesPath": "C:\\Users\\sukra\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\sukra\\OneDrive\\Masaüstü\\OnlineTenderProject\\OnlineTenderProject\\Entities\\obj\\",
+        "outputPath": "C:\\Users\\sukra\\OneDrive\\Belgeler\\GitHub\\OnlineTenderProject\\OnlineTenderProject\\Entities\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\sukra\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -247,8 +247,8 @@
           "netcoreapp3.1": {
             "targetAlias": "netcoreapp3.1",
             "projectReferences": {
-              "C:\\Users\\sukra\\OneDrive\\Masaüstü\\OnlineTenderProject\\OnlineTenderProject\\Core\\Core.csproj": {
-                "projectPath": "C:\\Users\\sukra\\OneDrive\\Masaüstü\\OnlineTenderProject\\OnlineTenderProject\\Core\\Core.csproj"
+              "C:\\Users\\sukra\\OneDrive\\Belgeler\\GitHub\\OnlineTenderProject\\OnlineTenderProject\\Core\\Core.csproj": {
+                "projectPath": "C:\\Users\\sukra\\OneDrive\\Belgeler\\GitHub\\OnlineTenderProject\\OnlineTenderProject\\Core\\Core.csproj"
               }
             }
           }

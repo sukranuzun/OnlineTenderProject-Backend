@@ -1,10 +1,11 @@
 {
   "version": 2,
-  "dgSpecHash": "cSlpbCn9jTo4o/b5MyqPvEIxY/QLR0uuLWcRUrZQqYyVB/llWF7V5iMy4XgS1+pwKiThG1mnl9hGPRaPuSwCmA==",
+  "dgSpecHash": "DBf42/3Q80okqBPoLMAc/dGiQoXf9a5D0EL9n1XrCN+Y7ap6AzXWewgKO5ivEggIOxWLBOU/FeGR+tlMxM96XA==",
   "success": true,
-  "projectFilePath": "C:\\Users\\sukra\\OneDrive\\Masaüstü\\OnlineTenderProject\\OnlineTenderProject\\Web-API\\Web-API.csproj",
+  "projectFilePath": "C:\\Users\\sukra\\OneDrive\\Belgeler\\GitHub\\OnlineTenderProject\\OnlineTenderProject\\Web-API\\Web-API.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\sukra\\.nuget\\packages\\autofac\\6.3.0\\autofac.6.3.0.nupkg.sha512",
+    "C:\\Users\\sukra\\.nuget\\packages\\autofac.extensions.dependencyinjection\\7.2.0\\autofac.extensions.dependencyinjection.7.2.0.nupkg.sha512",
     "C:\\Users\\sukra\\.nuget\\packages\\autofac.extras.dynamicproxy\\6.0.0\\autofac.extras.dynamicproxy.6.0.0.nupkg.sha512",
     "C:\\Users\\sukra\\.nuget\\packages\\castle.core\\4.4.0\\castle.core.4.4.0.nupkg.sha512",
     "C:\\Users\\sukra\\.nuget\\packages\\fluentvalidation\\10.3.4\\fluentvalidation.10.3.4.nupkg.sha512",

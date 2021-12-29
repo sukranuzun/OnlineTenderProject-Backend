@@ -31,12 +31,12 @@ namespace Business.Concrete
 
         public IDataResult<List<Admin>> GetAll()
         {
-            throw new NotImplementedException();
+            return new SuccessDataResult<List<Admin>>(_adminDal.GetAll(), Messages.Listed);
         }
 
         public IDataResult<Admin> GetById(int adminId)
         {
-            throw new NotImplementedException();
+            return new SuccessDataResult<Admin>(_adminDal.Get(a => a.AdminId == adminId));
         }
 
         public IResult Update(Admin admin)

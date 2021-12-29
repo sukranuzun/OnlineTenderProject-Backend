@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "EAJ1W2S2krPbgy7IR7PHaiSCtMVAS5B/g89iQgk5BwihLTKeqPden4xl3maEUHDz8beENKbm5o0sAyRwUbwCYg==",
+  "dgSpecHash": "XFa2XJwaB0bpRZDlv++DrWcz60/SkZRsF1HaT2cMGxALBw9hbIJmpJ7Jp8t8IDG6eJ6uWJ8T6bIvBN5QC6bY0w==",
   "success": true,
-  "projectFilePath": "C:\\Users\\sukra\\OneDrive\\Masaüstü\\OnlineTenderProject\\OnlineTenderProject\\Business\\Business.csproj",
+  "projectFilePath": "C:\\Users\\sukra\\OneDrive\\Belgeler\\GitHub\\OnlineTenderProject\\OnlineTenderProject\\Business\\Business.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\sukra\\.nuget\\packages\\autofac\\6.3.0\\autofac.6.3.0.nupkg.sha512",
     "C:\\Users\\sukra\\.nuget\\packages\\autofac.extras.dynamicproxy\\6.0.0\\autofac.extras.dynamicproxy.6.0.0.nupkg.sha512",

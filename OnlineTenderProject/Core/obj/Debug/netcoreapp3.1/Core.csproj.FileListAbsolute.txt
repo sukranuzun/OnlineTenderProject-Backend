@@ -3,3 +3,8 @@ C:\Users\sukra\OneDrive\Masaüstü\OnlineTenderProject\OnlineTenderProject\Core\
 C:\Users\sukra\OneDrive\Masaüstü\OnlineTenderProject\OnlineTenderProject\Core\obj\Debug\netcoreapp3.1\Core.AssemblyInfoInputs.cache
 C:\Users\sukra\OneDrive\Masaüstü\OnlineTenderProject\OnlineTenderProject\Core\obj\Debug\netcoreapp3.1\Core.AssemblyInfo.cs
 C:\Users\sukra\OneDrive\Masaüstü\OnlineTenderProject\OnlineTenderProject\Core\obj\Debug\netcoreapp3.1\Core.csproj.CoreCompileInputs.cache
+C:\Users\sukra\OneDrive\Belgeler\GitHub\OnlineTenderProject\OnlineTenderProject\Core\obj\Debug\netcoreapp3.1\Core.csproj.AssemblyReference.cache
+C:\Users\sukra\OneDrive\Belgeler\GitHub\OnlineTenderProject\OnlineTenderProject\Core\obj\Debug\netcoreapp3.1\Core.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\sukra\OneDrive\Belgeler\GitHub\OnlineTenderProject\OnlineTenderProject\Core\obj\Debug\netcoreapp3.1\Core.AssemblyInfoInputs.cache
+C:\Users\sukra\OneDrive\Belgeler\GitHub\OnlineTenderProject\OnlineTenderProject\Core\obj\Debug\netcoreapp3.1\Core.AssemblyInfo.cs
+C:\Users\sukra\OneDrive\Belgeler\GitHub\OnlineTenderProject\OnlineTenderProject\Core\obj\Debug\netcoreapp3.1\Core.csproj.CoreCompileInputs.cache

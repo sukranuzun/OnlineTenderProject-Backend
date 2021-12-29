@@ -24,6 +24,7 @@
 		<None Remove="Microsoft.AspNetCore.Authentication.JwtBearer" />
 	</ItemGroup>
 	<ItemGroup>
+	  <PackageReference Include="Autofac.Extensions.DependencyInjection" Version="7.2.0" />
 	  <PackageReference Include="Microsoft.AspNetCore.Http" Version="2.2.2" />
 	  <PackageReference Include="Microsoft.EntityFrameworkCore.SqlServer" Version="5.0.11" />
 	</ItemGroup>

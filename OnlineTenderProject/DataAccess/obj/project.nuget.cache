@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "Kl6UHFh/AATc/YeQ0ts44jgWyYo/aM9t2tSPrr4kpE1iEK+dzERVq1iow9+++7muYoQIq7k2xhYP0Y2yBDvn+g==",
+  "dgSpecHash": "XZz+1lXE5LPYA2YE9APRH7KdEiZob29au1F2IN8DGVPUWJ31fTZ2Ow2wX1t9DY93a70gz7dh/bXUkBecNyDLow==",
   "success": true,
-  "projectFilePath": "C:\\Users\\sukra\\OneDrive\\Masaüstü\\OnlineTenderProject\\OnlineTenderProject\\DataAccess\\DataAccess.csproj",
+  "projectFilePath": "C:\\Users\\sukra\\OneDrive\\Belgeler\\GitHub\\OnlineTenderProject\\OnlineTenderProject\\DataAccess\\DataAccess.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\sukra\\.nuget\\packages\\humanizer.core\\2.8.26\\humanizer.core.2.8.26.nupkg.sha512",
     "C:\\Users\\sukra\\.nuget\\packages\\microsoft.csharp\\4.7.0\\microsoft.csharp.4.7.0.nupkg.sha512",

@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "rSmO9Pzay56rgXvg6eMd+bTQnKEBL09gBvOgwoCqVBL6V2OFL8YOdQt+bV/Qr7Gi3RjJru9g/1Z01SYE3/GERQ==",
+  "dgSpecHash": "i2EtUFc7g5jT/yluhWQKhnyfqJq6EAGn/jSF9rNN2wB7To2spmiaB11wg2Nxwct2b9ciYVtyrxQZ+GSEYGR+ow==",
   "success": true,
-  "projectFilePath": "C:\\Users\\sukra\\OneDrive\\Masaüstü\\OnlineTenderProject\\OnlineTenderProject\\Entities\\Entities.csproj",
+  "projectFilePath": "C:\\Users\\sukra\\OneDrive\\Belgeler\\GitHub\\OnlineTenderProject\\OnlineTenderProject\\Entities\\Entities.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\sukra\\.nuget\\packages\\microsoft.entityframeworkcore\\5.0.11\\microsoft.entityframeworkcore.5.0.11.nupkg.sha512",
     "C:\\Users\\sukra\\.nuget\\packages\\microsoft.entityframeworkcore.abstractions\\5.0.11\\microsoft.entityframeworkcore.abstractions.5.0.11.nupkg.sha512",

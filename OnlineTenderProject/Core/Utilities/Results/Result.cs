@@ -20,8 +20,7 @@ namespace Core.Utilities.Results
             this.message = message;
         }
 
-        public bool Success => throw new NotImplementedException();
-
-        public string Message => throw new NotImplementedException();
+        public bool Success { get; }
+        public string Message { get; }
     }
 }

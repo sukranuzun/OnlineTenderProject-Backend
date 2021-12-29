@@ -1,4 +1,6 @@
-﻿using DataAccess.Concrete.EntityFramework;
+﻿using Business.Abstract;
+using DataAccess.Concrete.EntityFramework;
+using Entities.Concrete;
 using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
 using System;
@@ -12,30 +14,81 @@ namespace Web_API.Controllers
     [ApiController]
     public class TendersController : ControllerBase
     {
-        private DataContext _context;
+        ITenderService _tenderService;
+        public TendersController(ITenderService tenderService)
+        {
+            _tenderService = tenderService;
 
-        public TendersController(DataContext context)
-        {
-            _context = context;
         }
-        [HttpGet]
-        public IEnumerable<string> Get()
+        [HttpGet("getall")]
+        public IActionResult GetAll()
         {
-            return new string[] { "tender1","tender2" };
+            var result = _tenderService.GetAll();
+            if (result.Success)
+            {
+                return Ok(result);
+            }
+            return BadRequest(result);
         }
-        [HttpGet("{id}")]
-        public string Get(int id)
+        [HttpGet("getbyid")]
+        public IActionResult GetById(int id)
         {
-            return "tender";
+            var result = _tenderService.GetById(id);
+            if (result.Success)
+            {
+                return Ok(result);
+            }
+            return BadRequest(result);
         }
-        [HttpPost]
-        public void Post(int id, [FromBody] string tender)
+        [HttpPost("add")]
+        public IActionResult Add(Tender tender)
         {
+            var result = _tenderService.Add(tender);
+            if (result.Success)
+            {
+                return Ok(result);
+            }
+            return BadRequest(result);
         }
-
-        [HttpPut("{id}")]
-        public void Put(int id, [FromBody]string tender)
+        [HttpPost("update")]
+        public IActionResult Update(Tender tender)
         {
+            var result = _tenderService.Update(tender);
+            if (result.Success)
+            {
+                return Ok(result);
+            }
+            return BadRequest(result);
+        }
+        [HttpGet("getbycategory")]
+        public IActionResult GetByCategory(int categoryId)
+        {
+            var result = _tenderService.GetTendersByCategoryId(categoryId);
+            if (result.Success)
+            {
+                return Ok(result);
+            }
+            return BadRequest(result);
+        }
+        [HttpGet("getbyfiltertender")]
+        public IActionResult GetByFilterTender(int categoryId)
+        {
+            var result = _tenderService.GetByFilter(categoryId);
+            if (result.Success)
+            {
+                return Ok(result);
+            }
+            return BadRequest(result);
+        }
+        [HttpGet("gettenderdetail")]
+        public IActionResult GetTenderDetails()
+        {
+            var result = _tenderService.GetTenderDetails();
+            if (result.Success)
+            {
+                return Ok(result);
+            }
+            return BadRequest(result);
         }
 
     }

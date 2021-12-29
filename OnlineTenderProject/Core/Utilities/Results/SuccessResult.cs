@@ -6,11 +6,13 @@ namespace Core.Utilities.Results
 {
     public class SuccessResult : Result
     {
-        private string deleted;
-
-        public SuccessResult(string deleted)
+        public SuccessResult(string message) : base(true, message)
         {
-            this.deleted = deleted;
+
+        }
+        public SuccessResult() : base(true)
+        {
+
         }
     }
 }

@@ -4,13 +4,24 @@ using System.Text;
 
 namespace Core.Utilities.Results
 {
-    public class SuccessDataResult<T> : IDataResult<T>
+    public class SuccessDataResult<T> : DataResult<T>
     {
-        public T Data => throw new NotImplementedException();
+        public SuccessDataResult(T data, string message) : base(data, true, message)
+        {
 
-        public bool Success => throw new NotImplementedException();
+        }
+        public SuccessDataResult(T data) : base(data, true)
+        {
 
-        public string Message => throw new NotImplementedException();
+        }
+        public SuccessDataResult(string message) : base(default, true, message)
+        {
+
+        }
+        public SuccessDataResult() : base(default, true)
+        {
+
+        }
 
     }
 }

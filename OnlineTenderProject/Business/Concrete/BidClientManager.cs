@@ -1,5 +1,7 @@
 ﻿using Business.Abstract;
+using Business.Constants;
 using Core.Utilities.Results;
+using DataAccess.Abstract;
 using Entities.Concrete;
 using System;
 using System.Collections.Generic;
@@ -9,17 +11,47 @@ namespace Business.Concrete
 {
     public class BidClientManager : IBidClientService
     {
-        public IResult Add(BidClient bid)
+        IBidClientDal _bidClientDal;
+        public BidClientManager(IBidClientDal bidClientDal)
+        {
+            _bidClientDal = bidClientDal;
+        }
+
+
+        public IResult Add(BidClient bidClient)
+        {
+            _bidClientDal.Add(bidClient);
+            return new SuccessResult(Messages.Added);
+        }
+
+        public IResult Delete(BidClient bidClient)
+        {
+            _bidClientDal.Delete(bidClient);
+            return new SuccessResult(Messages.Deleted);
+        }
+
+        public IDataResult<List<BidClient>> GetAll()
+        {
+            return new SuccessDataResult<List<BidClient>>(_bidClientDal.GetAll(), Messages.Listed);
+        }
+
+        public IDataResult<BidClient> GetById(int bidId)
+        {
+            return new SuccessDataResult<BidClient>(_bidClientDal.Get(b => b.BidClientId == bidId));
+        }
+
+        public IResult Update(BidClient bidClient)
+        {
+            _bidClientDal.Update(bidClient);
+            return new SuccessResult(Messages.Updated);
+        }
+
+        DataResult<List<BidClient>> IBidClientService.GetAll()
         {
             throw new NotImplementedException();
         }
 
-        public IResult Delete(BidClient bid)
-        {
-            throw new NotImplementedException();
-        }
-
-        public IResult Update(BidClient bid)
+        DataResult<BidClient> IBidClientService.GetById(int bidClientId)
         {
             throw new NotImplementedException();
         }
