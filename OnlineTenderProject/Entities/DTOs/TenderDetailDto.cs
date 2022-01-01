@@ -12,6 +12,6 @@ namespace Entities.DTOs
         public double Price { get; set; }
         public bool Active { get; set; }
         public DateTime StartingDate { get; set; }
-        public DateTime EndDate { get; set; } }
+        public DateTime EndDate { get; set; } 
     }
 }
