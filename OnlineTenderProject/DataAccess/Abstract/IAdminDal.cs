@@ -8,5 +8,6 @@ namespace DataAccess.Abstract
 {
     public interface IAdminDal : IEntityRepository<Admin>
     {
+        List<Admin> GetAll();
     }
 }

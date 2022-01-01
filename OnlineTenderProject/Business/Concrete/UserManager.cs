@@ -56,10 +56,6 @@ namespace Business.Concrete
             _userDal.Update(updatedUser);
             return new SuccessDataResult<User>(Messages.UserUpdated);
         }
-        public IDataResult<List<User>> GetAll()
-        {
-            return new SuccessDataResult<List<User>>(_userDal.GetAll(), Messages.UserListed);
-        }
 
         public IDataResult<User> GetById(int id)
         {
@@ -71,12 +67,12 @@ namespace Business.Concrete
             return new SuccessDataResult<User>(_userDal.Get(u => u.Email == email));
         }
 
-        object IUserService.GetAll()
+        public object GetByMail(object email)
         {
             throw new NotImplementedException();
         }
 
-        public object GetByMail(object email)
+        public IDataResult<List<User>> GetAll()
         {
             throw new NotImplementedException();
         }

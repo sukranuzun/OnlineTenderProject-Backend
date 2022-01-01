@@ -31,11 +31,6 @@ namespace Business.Concrete
             return new SuccessResult(Messages.Deleted);
         }
 
-        public IDataResult<List<Tender>> GetAll()
-        {
-            return new SuccessDataResult<List<Tender>>(_tenderDal.GetAll(), Messages.Listed);
-        }
-
         public IDataResult<Tender> GetById(int tenderId)
         {
             return new SuccessDataResult<Tender>(_tenderDal.Get(t => t.TenderId == tenderId));
@@ -50,13 +45,19 @@ namespace Business.Concrete
         {
             return new SuccessDataResult<List<TenderDetailDto>>(_tenderDal.GetByFilter(categoryId));
         }
+        public IDataResult<List<TenderDetailDto>> GetTenderDetails()
+        {
+            return new SuccessDataResult<List<TenderDetailDto>>(_tenderDal.GetTenderDetails());
+        }
+
         public IDataResult<List<Tender>> GetTendersByCategoryId(int categoryId)
         {
             return new SuccessDataResult<List<Tender>>(_tenderDal.GetAll(c => c.CategoryId == categoryId));
         }
-        public IDataResult<List<TenderDetailDto>> GetTenderDetails()
+
+        public IDataResult<List<Tender>> GetAll()
         {
-            return new SuccessDataResult<List<TenderDetailDto>>(_tenderDal.GetTenderDetails());
+            throw new NotImplementedException();
         }
     }
 }

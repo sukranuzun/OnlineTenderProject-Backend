@@ -8,7 +8,7 @@ using System.Text;
 
 namespace DataAccess.Concrete.EntityFramework
 {
-    public class EfBidClient : EfEntityRepositoryBase<BidClient, DataContext>, IBidClientDal
+    public class EfBidClientDal : EfEntityRepositoryBase<BidClient, DataContext>, IBidClientDal
     {
       
     }

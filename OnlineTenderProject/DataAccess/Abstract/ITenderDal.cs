@@ -9,7 +9,7 @@ namespace DataAccess.Abstract
     public interface ITenderDal : IEntityRepository<Tender>
     {
         List<TenderDetailDto> GetByFilter(int categoryId);
-        List<Tender> GetAll(Func<object, bool> p);
         List<TenderDetailDto> GetTenderDetails();
+        List<Tender> GetAll(Func<object, bool> p);
     }
 }

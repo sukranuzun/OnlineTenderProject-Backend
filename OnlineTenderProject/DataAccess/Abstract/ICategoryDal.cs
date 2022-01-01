@@ -7,5 +7,6 @@ namespace DataAccess
 {
     public interface ICategoryDal : IEntityRepository<Category>
     {
+        List<Category> GetAll();
     }
 }

@@ -30,11 +30,6 @@ namespace Business.Concrete
             return new SuccessResult(Messages.Deleted);
         }
 
-        public IDataResult<List<BidClient>> GetAll()
-        {
-            return new SuccessDataResult<List<BidClient>>(_bidClientDal.GetAll(), Messages.Listed);
-        }
-
         public IDataResult<BidClient> GetById(int bidId)
         {
             return new SuccessDataResult<BidClient>(_bidClientDal.Get(b => b.BidClientId == bidId));

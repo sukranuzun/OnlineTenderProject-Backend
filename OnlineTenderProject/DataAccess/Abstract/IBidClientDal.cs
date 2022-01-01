@@ -8,6 +8,5 @@ namespace DataAccess.Abstract
 {
     public interface IBidClientDal : IEntityRepository<BidClient>
     {
-        List<BidClient> GetAll();
     }
 }
