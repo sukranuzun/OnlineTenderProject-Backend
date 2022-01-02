@@ -8,3 +8,16 @@ C:\Users\sukra\OneDrive\Belgeler\GitHub\OnlineTenderProject\OnlineTenderProject\
 C:\Users\sukra\OneDrive\Belgeler\GitHub\OnlineTenderProject\OnlineTenderProject\DataAccess\obj\Debug\netcoreapp3.1\DataAccess.AssemblyInfoInputs.cache
 C:\Users\sukra\OneDrive\Belgeler\GitHub\OnlineTenderProject\OnlineTenderProject\DataAccess\obj\Debug\netcoreapp3.1\DataAccess.AssemblyInfo.cs
 C:\Users\sukra\OneDrive\Belgeler\GitHub\OnlineTenderProject\OnlineTenderProject\DataAccess\obj\Debug\netcoreapp3.1\DataAccess.csproj.CoreCompileInputs.cache
+C:\Users\sukra\OneDrive\Belgeler\GitHub\OnlineTenderProject\OnlineTenderProject\DataAccess\bin\Debug\netcoreapp3.1\DataAccess.deps.json
+C:\Users\sukra\OneDrive\Belgeler\GitHub\OnlineTenderProject\OnlineTenderProject\DataAccess\bin\Debug\netcoreapp3.1\DataAccess.runtimeconfig.json
+C:\Users\sukra\OneDrive\Belgeler\GitHub\OnlineTenderProject\OnlineTenderProject\DataAccess\bin\Debug\netcoreapp3.1\DataAccess.runtimeconfig.dev.json
+C:\Users\sukra\OneDrive\Belgeler\GitHub\OnlineTenderProject\OnlineTenderProject\DataAccess\bin\Debug\netcoreapp3.1\DataAccess.dll
+C:\Users\sukra\OneDrive\Belgeler\GitHub\OnlineTenderProject\OnlineTenderProject\DataAccess\bin\Debug\netcoreapp3.1\DataAccess.pdb
+C:\Users\sukra\OneDrive\Belgeler\GitHub\OnlineTenderProject\OnlineTenderProject\DataAccess\bin\Debug\netcoreapp3.1\Core.dll
+C:\Users\sukra\OneDrive\Belgeler\GitHub\OnlineTenderProject\OnlineTenderProject\DataAccess\bin\Debug\netcoreapp3.1\Entities.dll
+C:\Users\sukra\OneDrive\Belgeler\GitHub\OnlineTenderProject\OnlineTenderProject\DataAccess\bin\Debug\netcoreapp3.1\Core.pdb
+C:\Users\sukra\OneDrive\Belgeler\GitHub\OnlineTenderProject\OnlineTenderProject\DataAccess\bin\Debug\netcoreapp3.1\Entities.pdb
+C:\Users\sukra\OneDrive\Belgeler\GitHub\OnlineTenderProject\OnlineTenderProject\DataAccess\obj\Debug\netcoreapp3.1\DataAccess.csproj.CopyComplete
+C:\Users\sukra\OneDrive\Belgeler\GitHub\OnlineTenderProject\OnlineTenderProject\DataAccess\obj\Debug\netcoreapp3.1\DataAccess.dll
+C:\Users\sukra\OneDrive\Belgeler\GitHub\OnlineTenderProject\OnlineTenderProject\DataAccess\obj\Debug\netcoreapp3.1\DataAccess.pdb
+C:\Users\sukra\OneDrive\Belgeler\GitHub\OnlineTenderProject\OnlineTenderProject\DataAccess\obj\Debug\netcoreapp3.1\DataAccess.genruntimeconfig.cache

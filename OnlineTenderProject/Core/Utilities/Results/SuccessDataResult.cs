@@ -1,7 +1,4 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.Text;
-
 namespace Core.Utilities.Results
 {
     public class SuccessDataResult<T> : DataResult<T>
@@ -18,10 +15,9 @@ namespace Core.Utilities.Results
         {
 
         }
-        public SuccessDataResult(IDataResult<Entities.Concrete.User> userToCheck, string loginSuccess) : base(default, true)
+        public SuccessDataResult() : base(default, true)
         {
 
         }
-
     }
 }

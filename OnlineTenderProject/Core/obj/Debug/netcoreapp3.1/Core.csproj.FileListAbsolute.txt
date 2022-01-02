@@ -8,3 +8,8 @@ C:\Users\sukra\OneDrive\Belgeler\GitHub\OnlineTenderProject\OnlineTenderProject\
 C:\Users\sukra\OneDrive\Belgeler\GitHub\OnlineTenderProject\OnlineTenderProject\Core\obj\Debug\netcoreapp3.1\Core.AssemblyInfoInputs.cache
 C:\Users\sukra\OneDrive\Belgeler\GitHub\OnlineTenderProject\OnlineTenderProject\Core\obj\Debug\netcoreapp3.1\Core.AssemblyInfo.cs
 C:\Users\sukra\OneDrive\Belgeler\GitHub\OnlineTenderProject\OnlineTenderProject\Core\obj\Debug\netcoreapp3.1\Core.csproj.CoreCompileInputs.cache
+C:\Users\sukra\OneDrive\Belgeler\GitHub\OnlineTenderProject\OnlineTenderProject\Core\bin\Debug\netcoreapp3.1\Core.deps.json
+C:\Users\sukra\OneDrive\Belgeler\GitHub\OnlineTenderProject\OnlineTenderProject\Core\bin\Debug\netcoreapp3.1\Core.dll
+C:\Users\sukra\OneDrive\Belgeler\GitHub\OnlineTenderProject\OnlineTenderProject\Core\bin\Debug\netcoreapp3.1\Core.pdb
+C:\Users\sukra\OneDrive\Belgeler\GitHub\OnlineTenderProject\OnlineTenderProject\Core\obj\Debug\netcoreapp3.1\Core.dll
+C:\Users\sukra\OneDrive\Belgeler\GitHub\OnlineTenderProject\OnlineTenderProject\Core\obj\Debug\netcoreapp3.1\Core.pdb

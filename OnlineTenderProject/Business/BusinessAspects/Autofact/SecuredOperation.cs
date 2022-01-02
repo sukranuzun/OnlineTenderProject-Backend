@@ -2,11 +2,12 @@
 using Castle.DynamicProxy;
 using Core.Extensions;
 using Core.Interceptors;
-using Core.Utilities.IoC;
+using Microsoft.Extensions.DependencyInjection;
 using Microsoft.AspNetCore.Http;
 using System;
 using System.Collections.Generic;
 using System.Text;
+using Core.Utilities.IoC;
 
 namespace Business.BusinessAspects.Autofact
 {
@@ -36,4 +37,4 @@ namespace Business.BusinessAspects.Autofact
         }
     }
 }
-}
+

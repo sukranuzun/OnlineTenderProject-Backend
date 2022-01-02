@@ -15,6 +15,6 @@ namespace Entities.Concrete
         public DateTime StartingDate { get; set; }
         public DateTime EndDate { get; set; }
         public int ClientId { get; set; }
-
+        public string CategoryName { get; set; }
     }
 }

@@ -10,6 +10,5 @@ namespace DataAccess.Abstract
     {
         List<TenderDetailDto> GetByFilter(int categoryId);
         List<TenderDetailDto> GetTenderDetails();
-        List<Tender> GetAll(Func<object, bool> p);
     }
 }

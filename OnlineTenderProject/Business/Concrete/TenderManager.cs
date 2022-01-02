@@ -57,7 +57,7 @@ namespace Business.Concrete
 
         public IDataResult<List<Tender>> GetAll()
         {
-            throw new NotImplementedException();
+            return new SuccessDataResult<List<Tender>>(_tenderDal.GetAll(), Messages.Listed);
         }
     }
 }

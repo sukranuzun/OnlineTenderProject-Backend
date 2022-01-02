@@ -15,3 +15,9 @@ C:\Users\sukra\OneDrive\Belgeler\GitHub\OnlineTenderProject\OnlineTenderProject\
 C:\Users\sukra\OneDrive\Belgeler\GitHub\OnlineTenderProject\OnlineTenderProject\Entities\obj\Debug\netcoreapp3.1\Entities.csproj.CoreCompileInputs.cache
 C:\Users\sukra\OneDrive\Belgeler\GitHub\OnlineTenderProject\OnlineTenderProject\Entities\obj\Debug\netcoreapp3.1\Entities.dll
 C:\Users\sukra\OneDrive\Belgeler\GitHub\OnlineTenderProject\OnlineTenderProject\Entities\obj\Debug\netcoreapp3.1\Entities.pdb
+C:\Users\sukra\OneDrive\Belgeler\GitHub\OnlineTenderProject\OnlineTenderProject\Entities\bin\Debug\netcoreapp3.1\Entities.deps.json
+C:\Users\sukra\OneDrive\Belgeler\GitHub\OnlineTenderProject\OnlineTenderProject\Entities\bin\Debug\netcoreapp3.1\Entities.dll
+C:\Users\sukra\OneDrive\Belgeler\GitHub\OnlineTenderProject\OnlineTenderProject\Entities\bin\Debug\netcoreapp3.1\Entities.pdb
+C:\Users\sukra\OneDrive\Belgeler\GitHub\OnlineTenderProject\OnlineTenderProject\Entities\bin\Debug\netcoreapp3.1\Core.dll
+C:\Users\sukra\OneDrive\Belgeler\GitHub\OnlineTenderProject\OnlineTenderProject\Entities\bin\Debug\netcoreapp3.1\Core.pdb
+C:\Users\sukra\OneDrive\Belgeler\GitHub\OnlineTenderProject\OnlineTenderProject\Entities\obj\Debug\netcoreapp3.1\Entities.csproj.CopyComplete

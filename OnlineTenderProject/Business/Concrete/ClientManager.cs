@@ -1,11 +1,10 @@
-﻿using Business.Abstract;
+﻿using System;
+using System.Collections.Generic;
+using Business.Abstract;
 using Business.Constants;
 using Core.Utilities.Results;
 using DataAccess.Abstract;
 using Entities.Concrete;
-using System;
-using System.Collections.Generic;
-using System.Text;
 
 namespace Business.Concrete
 {
@@ -32,7 +31,7 @@ namespace Business.Concrete
 
         public IDataResult<List<Client>> GetAll()
         {
-            //return new SuccessDataResult<Client>(_clientDal.Get(c => c.ClientId == clientId));
+            return new SuccessDataResult<List<Client>>(_clientDal.GetAll(), Messages.Listed);
         }
 
         public IDataResult<Client> GetById(int clientId)

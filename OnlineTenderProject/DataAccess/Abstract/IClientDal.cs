@@ -6,7 +6,8 @@ using System.Text;
 
 namespace DataAccess.Abstract
 {
-    public interface IClientDal: IEntityRepository<Client>
+    public interface IClientDal : IEntityRepository<Client>
     {
+        List<Client> GetAll();
     }
 }

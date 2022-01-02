@@ -1,9 +1,8 @@
-﻿using Core.Utilities.Results;
+﻿using System;
+using System.Collections.Generic;
+using Core.Utilities.Results;
 using Entities.Concrete;
 using Entities.DTOs;
-using System;
-using System.Collections.Generic;
-using System.Text;
 
 namespace Business.Abstract
 {
@@ -17,5 +16,8 @@ namespace Business.Abstract
         IDataResult<List<TenderDetailDto>> GetByFilter(int categoryId);
         IDataResult<Tender> GetById(int tenderId);
         IDataResult<List<Tender>> GetAll();
+
+
     }
 }
+

@@ -41,21 +41,6 @@ namespace Business.Concrete
             return new SuccessResult();
         }
 
-        public IResult ProfileUpdate(User user, string password)
-        {
-            byte[] passwordHash, passwordSalt;
-            var updatedUser = new User
-            {
-                UserId = user.UserId,
-                Email = user.Email,
-                UserName = user.UserName,
-                PasswordHash = passwordHash,
-                PasswordSalt = passwordSalt,
-
-            };
-            _userDal.Update(updatedUser);
-            return new SuccessDataResult<User>(Messages.UserUpdated);
-        }
 
         public IDataResult<User> GetById(int id)
         {
