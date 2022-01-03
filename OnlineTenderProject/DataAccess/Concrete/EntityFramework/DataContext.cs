@@ -23,7 +23,6 @@ namespace DataAccess.Concrete.EntityFramework
         protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
         {
             optionsBuilder.UseSqlServer(@"server=(localdb)\mssqllocaldb; database=OnlineTenderManagement; integrated security=true;");
-            base.OnConfiguring(optionsBuilder);
         }
         protected override void OnModelCreating(ModelBuilder modelBuilder)
         {

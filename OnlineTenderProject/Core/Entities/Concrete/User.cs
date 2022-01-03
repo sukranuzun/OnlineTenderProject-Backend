@@ -10,6 +10,6 @@ namespace Core.Entities.Concrete
         public string UserName { get; set; }
         public byte[] PasswordHash { get; set; }
         public byte[] PasswordSalt { get; set; }
-        public object Email { get; set; }
+        public string Email { get; set; }
     }
 }

@@ -13,7 +13,6 @@ namespace Business.ValidationRules.FluentValidation
             RuleFor(u => u.UserName).NotEmpty();
             RuleFor(u => u.UserName).MinimumLength(2);
             RuleFor(u => u.Email).NotEmpty();
-
         }
     }
 }

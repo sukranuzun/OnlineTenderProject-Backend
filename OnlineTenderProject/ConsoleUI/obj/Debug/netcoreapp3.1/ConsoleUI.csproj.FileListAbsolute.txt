@@ -1,0 +1,15 @@
+C:\Users\sukra\OneDrive\Belgeler\GitHub\OnlineTenderProject\OnlineTenderProject\ConsoleUI\bin\Debug\netcoreapp3.1\ConsoleUI.deps.json
+C:\Users\sukra\OneDrive\Belgeler\GitHub\OnlineTenderProject\OnlineTenderProject\ConsoleUI\bin\Debug\netcoreapp3.1\ConsoleUI.dll
+C:\Users\sukra\OneDrive\Belgeler\GitHub\OnlineTenderProject\OnlineTenderProject\ConsoleUI\bin\Debug\netcoreapp3.1\ConsoleUI.pdb
+C:\Users\sukra\OneDrive\Belgeler\GitHub\OnlineTenderProject\OnlineTenderProject\ConsoleUI\bin\Debug\netcoreapp3.1\Core.dll
+C:\Users\sukra\OneDrive\Belgeler\GitHub\OnlineTenderProject\OnlineTenderProject\ConsoleUI\bin\Debug\netcoreapp3.1\Entities.dll
+C:\Users\sukra\OneDrive\Belgeler\GitHub\OnlineTenderProject\OnlineTenderProject\ConsoleUI\bin\Debug\netcoreapp3.1\Entities.pdb
+C:\Users\sukra\OneDrive\Belgeler\GitHub\OnlineTenderProject\OnlineTenderProject\ConsoleUI\bin\Debug\netcoreapp3.1\Core.pdb
+C:\Users\sukra\OneDrive\Belgeler\GitHub\OnlineTenderProject\OnlineTenderProject\ConsoleUI\obj\Debug\netcoreapp3.1\ConsoleUI.csproj.AssemblyReference.cache
+C:\Users\sukra\OneDrive\Belgeler\GitHub\OnlineTenderProject\OnlineTenderProject\ConsoleUI\obj\Debug\netcoreapp3.1\ConsoleUI.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\sukra\OneDrive\Belgeler\GitHub\OnlineTenderProject\OnlineTenderProject\ConsoleUI\obj\Debug\netcoreapp3.1\ConsoleUI.AssemblyInfoInputs.cache
+C:\Users\sukra\OneDrive\Belgeler\GitHub\OnlineTenderProject\OnlineTenderProject\ConsoleUI\obj\Debug\netcoreapp3.1\ConsoleUI.AssemblyInfo.cs
+C:\Users\sukra\OneDrive\Belgeler\GitHub\OnlineTenderProject\OnlineTenderProject\ConsoleUI\obj\Debug\netcoreapp3.1\ConsoleUI.csproj.CoreCompileInputs.cache
+C:\Users\sukra\OneDrive\Belgeler\GitHub\OnlineTenderProject\OnlineTenderProject\ConsoleUI\obj\Debug\netcoreapp3.1\ConsoleUI.csproj.CopyComplete
+C:\Users\sukra\OneDrive\Belgeler\GitHub\OnlineTenderProject\OnlineTenderProject\ConsoleUI\obj\Debug\netcoreapp3.1\ConsoleUI.dll
+C:\Users\sukra\OneDrive\Belgeler\GitHub\OnlineTenderProject\OnlineTenderProject\ConsoleUI\obj\Debug\netcoreapp3.1\ConsoleUI.pdb
