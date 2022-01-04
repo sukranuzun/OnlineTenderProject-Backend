@@ -40,9 +40,9 @@ namespace Web_API.Controllers
             return BadRequest(result);
         }
         [HttpPost("add")]
-        public IActionResult Add(BidClient bid)
+        public IActionResult Add(BidClient bidClient)
         {
-            var result = _bidClientService.Add(bid);
+            var result = _bidClientService.Add(bidClient);
             if (result.Success)
             {
                 return Ok(result);
@@ -50,9 +50,9 @@ namespace Web_API.Controllers
             return BadRequest(result);
         }
         [HttpPost("update")]
-        public IActionResult Update(BidClient bid)
+        public IActionResult Update(BidClient bidClient)
         {
-            var result = _bidClientService.Update(bid);
+            var result = _bidClientService.Update(bidClient);
             if (result.Success)
             {
                 return Ok(result);
