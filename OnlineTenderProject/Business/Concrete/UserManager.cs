@@ -59,7 +59,11 @@ namespace Business.Concrete
 
         public IDataResult<List<User>> GetAll()
         {
-            throw new NotImplementedException();
+            if (DateTime.Now.Hour == 00)
+            {
+                return new ErrorDataResult<List<User>>(Messages.MaintenanceTime);
+            }
+            return new SuccessDataResult<List<User>>(_userDal.GetAll(), Messages.UserListed);
         }
     }
 }

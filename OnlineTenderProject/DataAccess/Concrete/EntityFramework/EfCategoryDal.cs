@@ -7,9 +7,5 @@ namespace DataAccess.Concrete.EntityFramework
 {
     public class EfCategoryDal : EfEntityRepositoryBase<Category, DataContext>, ICategoryDal
     {
-        public List<Category> GetAll()
-        {
-            throw new NotImplementedException();
-        }
     }
 }

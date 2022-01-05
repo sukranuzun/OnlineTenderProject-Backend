@@ -6,7 +6,7 @@ using System;
 
 namespace DataAccess.Concrete.EntityFramework
 {
-    public class DataContext: DbContext
+    public class DataContext : DbContext
     {
 
         public DbSet<Admin> admins { get; set; }

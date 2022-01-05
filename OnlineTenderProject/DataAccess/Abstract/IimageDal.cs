@@ -7,6 +7,5 @@ namespace DataAccess.Abstract
 {
     public interface IImageDal : IEntityRepository<Image>
     {
-        List<Image> GetAll();
     }
 }

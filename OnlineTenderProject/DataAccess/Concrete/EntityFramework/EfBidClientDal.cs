@@ -10,6 +10,5 @@ namespace DataAccess.Concrete.EntityFramework
 {
     public class EfBidClientDal : EfEntityRepositoryBase<BidClient, DataContext>, IBidClientDal
     {
-      
     }
 }

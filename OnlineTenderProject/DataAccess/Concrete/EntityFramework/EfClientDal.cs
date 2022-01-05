@@ -8,9 +8,5 @@ namespace DataAccess.Concrete.EntityFramework
 {
     public class EfClientDal : EfEntityRepositoryBase<Client, DataContext>, IClientDal
     {
-        public List<Client> GetAll()
-        {
-            throw new NotImplementedException();
-        }
     }
 }
